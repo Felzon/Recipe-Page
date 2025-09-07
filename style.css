@@ -1,0 +1,16 @@
+body {
+  background-color: hsl(66, 57%, 86%);
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+}
+
+.recipe-page {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 700px;
+  border-radius: 20px;
+}

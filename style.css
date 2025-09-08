@@ -1,16 +1,141 @@
+/* Reset margins, paddings, and box sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: hsl(66, 57%, 86%);
+  background-color: hsl(30, 54%, 90%);
   font-family: "Outfit", sans-serif;
   font-style: normal;
+  font-size: 9px;
+  font-weight: 500;
+  display: flex; /* make body a flex container */
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .recipe-page {
-  background-color: aquamarine;
+  height: 100vh; /* full viewport height */
+  margin: 0;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(30, 10%, 34%);
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  width: 500px;
-  height: 700px;
+  width: 420px;
+  height: 870px;
   border-radius: 20px;
+  padding-top: 17px;
+}
+
+.img-omelette {
+  width: 380px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.img-omelette img {
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+}
+
+p {
+  font-size: 9px;
+}
+
+.omelette {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 380px;
+  height: 85px;
+  padding-top: 13px;
+}
+
+.omelette h1 {
+  font-size: 22px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(24, 5%, 18%);
+}
+
+.omelette p {
+  font-size: 9px;
+}
+
+.prep-time {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(330, 100%, 98%);
+  width: 380px;
+  height: 95px;
+  line-height: 1.15rem;
+  border-radius: 7px;
+  padding-top: 12px;
+  padding-left: 15px;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-size: 10px;
+}
+
+ul {
+  padding-left: 17px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 140px;
+  line-height: 1.15rem;
+  padding-top: 12px;
+}
+
+h4 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.ingredients ul {
+  padding-left: 19px;
+  padding-top: 8px;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 235px;
+  padding-top: 12px;
+  line-height: 1.15rem;
+}
+
+.instructions ol {
+  padding-left: 17px;
+  padding-top: 8px;
+  font-size: 9px;
+}
+
+.nutrition {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 175px;
+  padding-top: 12px;
+  line-height: 1.2rem;
+}
+
+.nutrition ul {
+  padding-left: 17px;
+  padding-top: 8px;
 }

@@ -94,7 +94,7 @@ ul {
   display: flex;
   flex-direction: column;
   width: 380px;
-  height: 140px;
+  height: 160px;
   line-height: 1.15rem;
   padding-top: 12px;
 }
@@ -115,7 +115,7 @@ h4 {
   display: flex;
   flex-direction: column;
   width: 380px;
-  height: 235px;
+  height: 265px;
   padding-top: 12px;
   line-height: 1.15rem;
 }
@@ -138,4 +138,43 @@ h4 {
 .nutrition ul {
   padding-left: 17px;
   padding-top: 8px;
+}
+
+.nutrit {
+  padding-top: 5px;
+}
+.nut-p {
+  padding-top: 8px;
+}
+
+span {
+  padding-left: 180px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.nutrients {
+  padding-left: 19px;
+}
+
+.cal {
+  padding-left: 140px;
+}
+
+.carbs {
+  padding-left: 150px;
+}
+
+.protein {
+  padding-left: 145px;
+}
+
+.fat {
+  padding-left: 160px;
+}
+
+.line {
+  height: 0.1px; /* thickness */
+  background: hsl(30, 3%, 88%); /* color */
+  width: 90%; /* length */
 }
